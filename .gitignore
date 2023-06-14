@@ -41,3 +41,4 @@ ipython_config.py
 *.code-workspace
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,jupyternotebooks
+.DS_Store
