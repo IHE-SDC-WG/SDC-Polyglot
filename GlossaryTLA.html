@@ -1,0 +1,531 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>26.1 Terms and Abbreviations &#8212; SDC-Polyglot</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'GlossaryTLA';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="SDC Polyglot Workbook" href="Schema/SDCSchema.html" />
+    <link rel="prev" title="SDC-Polyglot" href="README.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="README.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/logo.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="README.html">
+                    SDC-Polyglot
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">26.1	Terms and Abbreviations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Schema/SDCSchema.html">SDC Polyglot Workbook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Intro%20To%20SDC/Introduction.html">Introduction to SDC</a></li>
+
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/IHE-SDC-WG/SDC-Polyglot" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/IHE-SDC-WG/SDC-Polyglot/issues/new?title=Issue%20on%20page%20%2FGlossaryTLA.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/GlossaryTLA.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>26.1	Terms and Abbreviations</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># 26	Glossary</span>
+</pre></div>
+</div>
+</div>
+</div>
+<section id="terms-and-abbreviations">
+<h1>26.1	Terms and Abbreviations<a class="headerlink" href="#terms-and-abbreviations" title="Permalink to this heading">#</a></h1>
+<p><strong>ChildItems</strong>: The ChildItems element under a <strong>S</strong> or <strong>Q</strong> element provides a wrapper to subsume child XFCs including Q, S, <strong>DisplayedItem</strong>, <strong>ButtonAction</strong> and <strong>InjectForm</strong>.  Note that a <strong>LI</strong> may not be a direct child of ChildItems, even though LI is an <strong>XFC</strong>.  The ChildItems wrapper element serves to separate child XFC elements from other <strong>parent-owned</strong> <strong>metadata</strong> elements that supplement the parent XFC.</p>
+<p><strong>Common Data Element (CDE)</strong>: When Data Elements (DEs) are found inside a DE repository/registry, a DE is called a CDE.  A CDE registry allows the sharing of DEs among many forms and allows DE variations and version history to be maintained in a central location.</p>
+<p><strong>Composite globally-unique identifier (CGUI)</strong>: When referring to a specific XFC in a specific FDF, a CGUI is creating by using the &#64;baseURI of the closest ancestor, concatenated as a prefix with the &#64;ID value of the XFC.</p>
+<p><strong>Conditionally Required (CR)</strong>: All required DEs (&#64;mustImplement = true) must appear in DEF so that users may complete them.  However, the responses from some required DEs should be omitted from reports under specific circumstances.  For example, if no lymph nodes are present in a pathology specimen, then “required” lymph node pathology DEs should not be reported.  These required DEs can be considered as “Conditionally Required” (CR), so that a user (or computer) may recognize when the DE should be omitted from the report.  There are 3 basic types of CR: Omit When Selected (OWS), Omit When Unanswered (OWU) and Selection Disables Children (SDAC).</p>
+<p>Control: XFCs can be rendered in a DEF in different ways depending on a Form Filler’s programming technique and visual themes/preferences, but all SDC forms use the same SDC information model and form components.  When XFCs are rendered in a DEF, the DEF screen objects are called controls or widgets to distinguish these rendered screen items from the XFCs described by the FDF XML.</p>
+<p><strong>Context</strong>: Context refers to the hierarchical relationship between form components defined by the FDF XML.  Context (especially ancestors) can greatly affect the semantics of the DE units in an FDF and DEF.  Incorrectly separating the DEF user responses into separate data slots (e.g., “shredding” captured QAS responses into database tables and fields not designed for SDC) can result in loss of context and misinterpretation of.  Care must be taken to assure the preservation of the original context, including when storing DEF responses and assigning terminologies/codes.  Preservation of context is a major advantage of SDC over other technologies.  Because of the complexities of finding suitable terminology and CDE codes that precisely describe the contextual semantics of a captured DEF user response, application of terminology codes is not a substitute for SDC context preservation.</p>
+<p><strong>Control</strong>: XFCs can be rendered in a DEF in different ways depending on a Form Filler’s programming technique and visual themes/preferences, but all SDC forms use the same SDC information model and form components.  When XFCs are rendered in a DEF, the DEF screen objects are called controls or widgets to distinguish these rendered screen items from the XFCs described by the FDF XML.</p>
+<p><strong>Data Element (DE)</strong>:  A DE is essentially a Q, along with a definition of acceptable answer choices (either a direct “fill-in” response or a list of possible answer choices).DEs are a fundamental concept in the SDC world.  DEs can live in multiple environments, including, e.g., inside a text document, XML, public DE registry, FDF, DEF, or database.    In some cases, terminology codes and many other types of metadata may be added to DEs.  When multiple DE units are nested together into an interdependent unit, the structure is known as a complex DE.  Many FDFs contain complex DE blocks.  Although there is no universal XML standard for representing and transmitting DE structure and content, FDF XML can be used for this purpose.</p>
+<p><strong>Data Items</strong>: Data items live inside DEFs.  Data items are simply Qs that need an answer.   The Data Element (DE) and the Question/Answer Set (QAS) are closely related concepts.</p>
+<p><strong>Data-Entry Forms (DEFs)</strong>: DEFs can be found in web pages, desktop software or any data-entry screen in any software application.  <strong>Data items</strong> live inside DEFs.  Data items are simply Qs that need an answer.  Structured Data Capture (SDC) is a new technology that creates interoperable, computer-readable definitions for standardized <strong>data items</strong> in DEFs.</p>
+<p><strong>DemogFormDesign</strong>: DemogFormDesign  is an element in an SDCPackage that is used to contain a generic demographic form that is reused with multiple different domain-specific forms that are placed in the FormDesign S.</p>
+<p><strong>DisplayedItem (DI)</strong>: The DI element is used to define visible text for display almost anywhere in a DEF.  Each DI has a unique &#64;ID, but, unlike Qs and Ss, a DI cannot have a ChildItems element or XFC descendants.   Displayed text that must have XFC descendants must use the S element instead; this should not cause a problem because the formatting of any SDC element, such as DI or S, should be determined by the &#64;styleClass attribute, not the element type.</p>
+<p><strong>FDF-R</strong>: FDF-R is an <strong>FDF</strong> containing captured user responses.</p>
+<p><strong>Form Creators</strong>: Form Creators are the most important component of the SDC ecosystem, despite not being IHE <strong>actors</strong> (transaction nodes).  Form creators are individuals and organizations that define the content, structure and behavior of FDFs. Form Creators may develop FDFs by working directly with FDF XML, or by using a tool to create/edit FDF files.</p>
+<p><strong>Form Design File (FDF)</strong>: SDC defines the data items of a DEF inside a Form Design File (FDF).  An FDF is primarily an XML description of the data items in a DEF.  It is not dependent on the programming language used to create a DEF.</p>
+<p><strong>Form Managers (FMs)</strong>: Form Managers (FMs) store FDFs in a repository and transmit them immediately in response to requests from Form Fillers (FFs).  Form Creators send (e.g., via email or direct upload) FDFs to one or more Form Managers</p>
+<p><strong>Form Receivers (FRs)</strong>: Form Receivers (FRs) receive the SDC response data (in an FDF-R file) from the Form Filler and process the data according to the FR’s needs.  FRs are responsible for storing the captured SDC data as native SDC XML and/or “shredded” into some other storage format.</p>
+<p><strong>FormDesign</strong>: FormDesign is the root element of an FDF.  FormDesign contains an &#64;ID attribute and several other attributes specific to the FDF root.  In addition, FormDesign may contain any number of standard or custom Property elements to provide essential metadata about the form.</p>
+<p><strong>Implied Activation</strong>: Implied Activation means that child items are automatically activated when a user response is captured in a parent QAS.  Thus, when a LI is selected, all child items of the LI become activated.  QS, QM and QR items also may have direct child items in the FDF and DEF.  For QM and QS, the child items are activated when any LI is selected.  For QR, the child items are activated when a user response is captured in control.</p>
+<p><strong>Invisible Questions</strong>: Invisible Questions have no &#64;title value in the XML or visible text in the DEF, but their LIs do have &#64;title values and thus text in the DEF.</p>
+<p><strong>ListItem (LI)</strong>:  LIs are answer choices that are subsumed by a QS or QM.  An LI comes in two basic types: the <strong>simple LI</strong>, which is selectable by the user, and the <strong>ListItem-Response (LIR)</strong>, which is selectable and can also capture a user-entered response.</p>
+<p><strong>ListItem-Response (LIR)</strong>: An LIR is a LI that contains a Response element for a user to fill in a response.  If the LIR is selected by a user, then the user can also add a strongly-typed response to the fill-in portion of the LIR.</p>
+<p><strong>ListItemResponseField</strong>: ListItemResponseField is the part of an LIR that receives and contains the user’s response data.  It contains a strongly-typed data entry element for restricting and validating the type of data that may be entered.</p>
+<p><strong>Metadata</strong>: Metadata refers to the values of all FDF attributes, which affect the rendering, behavior, storage, exchange, reporting and interpretation of all FDF form components.  In SDC, everything inside an FDF is metadata except for the data entered by the user and captured by the DEF.</p>
+<p><strong>Multi-select Question (QM)</strong>: A Q that allows the user to select multiple LIs and/or LIRs in a QAS list.</p>
+<p><strong>Notes</strong>: Notes are strings of text that may accompany DE controls to provide explanatory information with background documentation.  Notes usually derive from the SDC DisplayedItem element.</p>
+<p>Response/ Response Field - needs individual entry or reference in LIR
+HTMLPackage - needs individual entry
+Form Filler - needs an individual entry
+Form User - needs an individual entry
+Form - though used colloquially, should likely have an entry
+Body - needs individual entry
+Footer - needs individual entry
+ButtonAction - needs individual entry
+InjectForm - needs individual entry
+Header?</p>
+<p>Verbs need definition:
+Capture
+Select
+Parent-owned and/or short definition of hierarchy of objects in this document</p>
+<p>list of actors
+list of human inter-actors</p>
+<p>IET table?</p>
+<p>Prpare task for RLM in July time frame (post grants)</p>
+<p><strong>Property</strong>: Properties may be used to define standard or custom FDF metadata. Properties can be used to display static information on forms, and to display context-sensitive information (e.g., tooltips, help pop-ups, or special report text).  They also may be used to record visible or hidden metadata for any purpose.  Properties may be nested to any depth and use any datatype for the Property’s value.</p>
+<p><strong>Question (Q)</strong>: Qs that can capture a response (fill-in) value directly are called <strong>Question-Response Items (QR)</strong>.  They are sometimes also called Q Response (QR) items.  QR response metadata and captured response values are handled by the <strong>ResponseField\Response</strong> structure.  Other Qs take a List of answer choices, called ListItems (LI).  In the most common cases, Qs with LI choices are either <strong>QS</strong> or QM.  <strong>QS</strong> and QM items never have a Response element, however, selected LIs may accept a user response in the ListItemResponseField.</p>
+<p><strong>Question/Answer Set (QAS)</strong>: A QAS is a Q in a DEF that includes a definition of its permitted answer(s).  The permitted answers may be captured as a filled-in response by the user, or by selecting from a list of answer choices (LI elements).  A QAS can be thought of as a DE that lives in a DEF rather than in an FDF or CDE registry.</p>
+<p><strong>Question-Response Items (QR)</strong>: Qs that can capture a response (fill-in) value directly are called Question-Response Items (QR).  They are sometimes also called Q Response (QR) items.  A QR contains no child LIs.  Response metadata and captured response values are handled by the ResponseField\Response XML structure.</p>
+<p><strong>SDCPackage</strong>: SDCPackage is an XML container sent from a Form Manager to a Form Filler.  It may contain an HTMLPackage enclosing an HTML form, or it may contain an XMLPackage that encloses a FormDesign S and optionally, a DemogFormDesign S.  The HTML package contains a ready-to-use HTML SDC form.  The XML Package must be converted into an implemented DEF and then rendered to the computer screen.  For example, the XMLPackage is converted to an HTML DEF inside the Form Filler.</p>
+<p><span class="xref myst">//</span>: # (Comment: Should individual letter be highlighted throughout?;Section is “overloaded” in this entry; Is there a “Header” Section (in addition to Body and Footer?) )
+<strong>Section (S)</strong>: The most basic structure of an FDF is the S.  Three specially-named Ss are the Section, Body and Footer, which appear as direct children of the top-level FormDesign element.  Ss can contain a variety of metadata features, but their main function is to group XFCs into logical groupings.</p>
+<p><strong>Single-select Question (QS)</strong>: A Q that allows the user to select only one LI from a List of LIs.</p>
+<p><strong>Structured Data Capture (SDC)</strong>: is a new technology that creates interoperable, computer-readable definitions for standardized data items in DEFs.</p>
+<p><strong>XML Form Component (XFC)</strong>: The parts of FDF XML used to represent primary form objects are called XML Form Components.  XFCs may be one of several types: Q, LI, S, DI, InjectForm, and ButtonAction. All XFCs have a required <strong>&#64;ID</strong> attribute.  Q, S and LI may subsume a ChildItems element, which contain other XFCs.</p>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="README.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">SDC-Polyglot</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="Schema/SDCSchema.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">SDC Polyglot Workbook</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div></div>
+  
+</div>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By IHE-SDC-WG
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2022.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
