@@ -21,5 +21,6 @@ html:
   use_issues_button: true
   use_repository_button: true
 
+# Make sure any folder that starts with "." is added to this array
 exclude_patterns: ["_build", "**.ipynb_checkpoints", ".venv/*", ".github/*"]
 only_build_toc_files: true

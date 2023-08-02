@@ -3,6 +3,9 @@
 
 format: jb-book
 root: README.md
+# Each listing below corresponds to a non-empty .ipynb file which will be exported to Github Pages and added to the left navigation pane
+# To add a new notebook file onto the GitHub Pages export, add it to the list below
+# Warning: Adding an empty .ipynb file to the list below will cause a build error to occur
 chapters:
 - file: GlossaryTLA
 - file: Schema/SDCSchema
