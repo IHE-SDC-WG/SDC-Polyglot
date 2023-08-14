@@ -362,7 +362,12 @@ document.write(`
 </li>
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#overview-of-sdc-principles">2	Overview of SDC Principles</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sdc-design-principles">2.1	SDC Design Principles</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sdc-actors">2.2	SDC Actors</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sdc-actors">2.2	SDC Actors</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#form-managers">Form Managers</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#form-fillers">Form Fillers</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#form-receivers">Form Receivers</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -432,7 +437,36 @@ in <strong>Data Entry Forms (DEFs)</strong>.</p>
 <hr class="docutils" />
 <section id="sdc-actors">
 <h2>2.2	SDC Actors<a class="headerlink" href="#sdc-actors" title="Permalink to this heading">#</a></h2>
-<p>In the simplest SDC model, there are three primary software <strong>actors</strong> in the SDC ecosystem, each of which is a different kind of node in an SDC transaction network.</p>
+<p>In the simplest SDC model, there are three primary software actors within the SDC ecosystem. The three primary software actors are as follows:</p>
+<ul class="simple">
+<li><p>Form Managers (FMs)</p></li>
+<li><p>Form Fillers (FFs)</p></li>
+<li><p>Form Receivers (FRs)</p></li>
+</ul>
+<p>Each of these actors serves as a distinct node in the SDC transaction network.</p>
+<section id="form-managers">
+<h3>Form Managers<a class="headerlink" href="#form-managers" title="Permalink to this heading">#</a></h3>
+<p>FMs are responsible for storing Form Definition Files (FDFs) in a repository. They promptly transmit these FDFs upon receiving requests from Form Fillers (FFs). FMs are also tasked with addressing user authorization and authentication, generating instance IDs, and enforcing instance ID and version control (which will be discussed later).</p>
+</section>
+<section id="form-fillers">
+<h3>Form Fillers<a class="headerlink" href="#form-fillers" title="Permalink to this heading">#</a></h3>
+<p>Form Fillers are software applications that perform the following tasks:
+a. Retrieve an FDF file from a Form Manager.
+i. Alternatively, the FF may retrieve an FDF transformed into HTML or obtain a URL that directs to a server hosting the SDC HTML.
+b. Convert the XML content into a Document Element Form (DEF) using various programming languages and methodologies. For instance, the XSLT language might be used to transform the FDF into an HTML web page. Users interact with the DEF within the FF software.
+c. Capture and validate user-entered responses within the DEF.
+d. Implement both implicit9 and explicit10 rules that dictate the behaviors and actions of the forms in response to user interactions.
+e. Store and/or transmit the captured response data contained inside the original FDF. As noted earlier, an FDF containing user responses is called an FDF-R. SDC response data is transmitted as an FDF-R to one or more actors called Form Receivers (FRs).</p>
+</section>
+<section id="form-receivers">
+<h3>Form Receivers<a class="headerlink" href="#form-receivers" title="Permalink to this heading">#</a></h3>
+<p>Form Receivers receive the SDC response data (in an FDF-R file) from the Form Filler and process the data
+according to the FR’s needs. FRs are responsible for storing the captured SDC data as native SDC XML and/or
+transformed into some other storage format (e.g., relational database tables). FRs may also be responsible for
+validation of forms via the SDC Schema, SDC rules, and external rules encoded in formats such as
+Schematrons. Transaction logging, validation, error reporting to the FF, version control, patient matching,
+authentication and authorization are other potential requirements for FRs.</p>
+<p>This delineates the roles and responsibilities of the primary software actors in the simplest SDC model.</p>
 <hr class="footnotes docutils" />
 <aside class="footnote brackets" id="id6" role="note">
 <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">1</a><span class="fn-bracket">]</span></span>
@@ -454,6 +488,7 @@ in <strong>Data Entry Forms (DEFs)</strong>.</p>
 <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id5">5</a><span class="fn-bracket">]</span></span>
 <p>This allows the use of complex rich text (e.g., fonts, special text formatting) alongside the equivalent plain (unformatted) text in FDFs.  Although many DEFs appear “better” with rich text, some systems cannot support it.  Also, many data transmission standards do not natively support rich text of any sort.</p>
 </aside>
+</section>
 </section>
 </section>
 
@@ -524,7 +559,12 @@ in <strong>Data Entry Forms (DEFs)</strong>.</p>
 </li>
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#overview-of-sdc-principles">2	Overview of SDC Principles</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sdc-design-principles">2.1	SDC Design Principles</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sdc-actors">2.2	SDC Actors</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sdc-actors">2.2	SDC Actors</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#form-managers">Form Managers</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#form-fillers">Form Fillers</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#form-receivers">Form Receivers</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
