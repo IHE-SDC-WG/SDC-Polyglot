@@ -32,7 +32,7 @@ Statuses are:
 | SDC Schema                   | In Progress |
 | SDC Reference Implementation | In Progress |
 | Terminologies                | Planned     |
-| SDC Transmission Methods     | In Progress | 
+| SDC Transmission Methods     | In Progress |
 | Querying SDC Data            | Planned     |
 | Modeling Guidelines for FDFs | Planned     |
 | Comparing SDC Versions       | Planned     |
