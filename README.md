@@ -24,22 +24,22 @@ Statuses are:
 * In Review
 * Completed
 
-| Chapter                      | Status      |
-|------------------------------|-------------|
-| Introduction                 | Completed   |
-| Overview                     | Completed   |
-| Glossary                     | Completed   |
-| SDC Schema                   | In Progress |
-| SDC Reference Implementation | In Progress |
-| Terminologies                | Planned     |
-| SDC Transmission Methods     | In Progress |
-| Querying SDC Data            | Planned     |
-| Modeling Guidelines for FDFs | Planned     |
-| Comparing SDC Versions       | Planned     |
-| Saving SDC Instance Data     | Planned     |
-| Creating SDC UIs             | Planned     |
-| SDC Object Model             | Planned     |
-| SDC Template Editor          | Planned     |
-| Functional Considerations    | Planned     |
-| Validating SDC Docs          | Planned     |
-| Complete Example Forms       | Planned     |
+| Chapter                      | Status      | Description of last upddate        |
+|------------------------------|-------------|------------------------------------|
+| Introduction                 | Completed   | -                                  |
+| Overview                     | Completed   | -                                  |
+| Glossary                     | Completed   | -                                  |
+| SDC Schema                   | In Progress | -                                  |
+| SDC Reference Implementation | In Progress | SDC REST API section needs work    |
+| Terminologies                | Planned     | -                                  |
+| SDC Transmission Methods     | In Progress | -                                  |
+| Querying SDC Data            | Planned     | -                                  |
+| Modeling Guidelines for FDFs | Planned     | -                                  |
+| Comparing SDC Versions       | Planned     | -                                  |
+| Saving SDC Instance Data     | Planned     | -                                  |
+| Creating SDC UIs             | Planned     | -                                  |
+| SDC Object Model             | Planned     | -                                  |
+| SDC Template Editor          | Planned     | -                                  |
+| Functional Considerations    | Planned     | -                                  |
+| Validating SDC Docs          | Planned     | -                                  |
+| Complete Example Forms       | Planned     | -                                  |
