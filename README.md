@@ -12,13 +12,37 @@ To access the notebook in read-only mode, visit the following link: https://ihe-
 
 ## Note about this Repo
 
+
+## Note about this Repo
+
 Disclaimer: This Polyglot notebook is currently in development and the content is subject to significant change. This disclaimer will be removed when a complete enough version is available on this Github. 
 
-## GitHub Workflow for this Notebook
+## Progress Tracker
 
-1. Different Chapters are tracked in the CAP YouTrack.
-2. If you are making a change that is tracked in a ticket then you must create a branch with that ticket number and chapter name. e.g. SDCP-41-DescriptionofSDCRI
-3. Add your content to your branch. E.g. for SDCP-41-DescriptionofSDCRI it was a description of the SDC Reference Implementation
-4. PR your content from your branch to main branch and assign the PR to someone
-5. Wait for approval from assignee
+A summary of the progress made on the project.
 
+Statuses are:
+
+* Not started
+* In Review
+* Completed
+
+| Chapter                      | Status      | Description of last upddate        |
+|------------------------------|-------------|------------------------------------|
+| Introduction                 | Completed   | -                                  |
+| Overview                     | Completed   | -                                  |
+| Glossary                     | Completed   | -                                  |
+| SDC Schema                   | In Progress | -                                  |
+| SDC Reference Implementation | In Progress | SDC REST API section needs work    |
+| Terminologies                | Planned     | -                                  |
+| SDC Transmission Methods     | In Progress | -                                  |
+| Querying SDC Data            | Planned     | -                                  |
+| Modeling Guidelines for FDFs | Planned     | -                                  |
+| Comparing SDC Versions       | Planned     | -                                  |
+| Saving SDC Instance Data     | Planned     | -                                  |
+| Creating SDC UIs             | Planned     | -                                  |
+| SDC Object Model             | Planned     | -                                  |
+| SDC Template Editor          | Planned     | -                                  |
+| Functional Considerations    | Planned     | -                                  |
+| Validating SDC Docs          | Planned     | -                                  |
+| Complete Example Forms       | Planned     | -                                  |
