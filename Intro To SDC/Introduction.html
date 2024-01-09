@@ -457,20 +457,23 @@ in <strong>Data Entry Forms (DEFs)</strong>.</p>
 <li><p>Form Fillers (FFs)</p></li>
 <li><p>Form Receivers (FRs)</p></li>
 </ul>
-<p>Each of these actors serves as a distinct node in the SDC transaction network.</p>
+<p>Each of these actors serves as a distinct node in the SDC transaction network described below.</p>
 <section id="form-managers">
 <h3>Form Managers<a class="headerlink" href="#form-managers" title="Permalink to this heading">#</a></h3>
-<p>FMs are responsible for storing Form Definition Files (FDFs) in a repository. They promptly transmit these FDFs upon receiving requests from Form Fillers (FFs). FMs are also tasked with addressing user authorization and authentication, generating instance IDs, and enforcing instance ID and version control (which will be discussed later).</p>
+<p>FMs are responsible for storing Form Definition Files (FDFs) in a repository. They promptly transmit these FDFs upon receiving requests from Form Fillers (FFs). FMs are also tasked with addressing user authorization and authentication, generating instance IDs, and enforcing instance ID and version control of the FDFs. These features are useful for ensuring the Form Filler has the correct form and can retrieve the most current data.</p>
 </section>
 <section id="form-fillers">
 <h3>Form Fillers<a class="headerlink" href="#form-fillers" title="Permalink to this heading">#</a></h3>
-<p>Form Fillers are software applications that perform the following tasks:
-a. Retrieve an FDF file from a Form Manager.
-i. Alternatively, the FF may retrieve an FDF transformed into HTML or obtain a URL that directs to a server hosting the SDC HTML.
-b. Convert the XML content into a Document Element Form (DEF) using various programming languages and methodologies. For instance, the XSLT language might be used to transform the FDF into an HTML web page. Users interact with the DEF within the FF software.
-c. Capture and validate user-entered responses within the DEF.
-d. Implement both implicit9 and explicit10 rules that dictate the behaviors and actions of the forms in response to user interactions.
-e. Store and/or transmit the captured response data contained inside the original FDF. As noted earlier, an FDF containing user responses is called an FDF-R. SDC response data is transmitted as an FDF-R to one or more actors called Form Receivers (FRs).</p>
+<p>Form Fillers are software applications that perform the following tasks:</p>
+<ol class="arabic simple">
+<li><p>Retrieve an FDF file from a Form Manager. Alternatively, the FF may retrieve an FDF transformed into HTML or obtain a URL that directs to a server hosting the SDC HTML. The <a class="reference external" href="https://ihe.net/uploadedFiles/Documents/QRPH/IHE_QRPH_Suppl_SDC.pdf">IHE SDC Supplement</a> offers some details on these different methods for form retrieval in Section X.2 SDC Actor Options.</p></li>
+<li><p>Convert the XML content into a Document Element Form (DEF) using various programming languages and methodologies. For instance, the XSLT language might be used to transform the FDF into an HTML web page. Users interact with the DEF within the FF software.</p></li>
+</ol>
+<ol class="arabic simple" start="3">
+<li><p>Capture and validate user-entered responses within the DEF.</p></li>
+<li><p>Implement both implicit and explicit rules that dictate the behaviors and actions of the forms in response to user interactions.</p></li>
+<li><p>Store and/or transmit the captured response data contained inside the original FDF. As noted earlier, an FDF containing user responses is called an FDF-R. SDC response data is transmitted as an FDF-R to one or more actors called Form Receivers (FRs).</p></li>
+</ol>
 </section>
 <section id="form-receivers">
 <h3>Form Receivers<a class="headerlink" href="#form-receivers" title="Permalink to this heading">#</a></h3>
