@@ -8,7 +8,10 @@ Find out what markdown version this is? GitHub Markdown?
 
 ## Read-only Preview
 
-To access the notebook in read-only mode, visit the following link: https://ihe-sdc-wg.github.io/SDC-Polyglot/.
+To access the notebook in read-only mode, visit the following link: https://ihe-sdc-wg.github.io/SDC-Polyglot/
+
+## Note about this Repo
+
 
 ## Note about this Repo
 
