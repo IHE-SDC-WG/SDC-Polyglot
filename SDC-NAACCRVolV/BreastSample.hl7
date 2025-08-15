@@ -1,0 +1,20 @@
+MSH|^~\&|LIS|NKHCL^^CLIA|Eureka|CCR|20141113190040||ORU^R01^ORU_R01|201411131900400001|D|2.5.1|||||||||VOL_V_40_ORU_R01^NAACCR_CP
+PID|1||erXuFYUfucBZaryVksYEcMg3^^^EPIC^PT||Lopez^Camila^Maria^^^^L||19870912|F||^Other|3268 West Johnson St^Apt 117^GARLAND^TX^75043^USA^H||^PRN^PH^^1^231^5555555|||||||||||||||||N
+NK1|1|MINNIE^ME^^^^^L|EXF^Extended family^HL70063||^PRN^PH^^1^989^6547896
+ORC|RE||||||||||||||||||||NRM^A^^^^California^CALIF^^^0000121051|2425 Harrison Ave^^Eureka^CA^95501^USA^B||Redwood Women'S Center,P.C.^3307 Renner Drive^Fortuna^CA^95540^USA^B
+OBR|1||14SK-308^NKHCL^^CLIA|60568-3^SYNOPTIC REPORT^LN^SR-MTUITVE^CAP Synoptic Reporting^L|||20141113|||1649229105^Anderson Jr^James^M^^^^^CMS^L^^^NPI~A25979^Anderson Jr^James^M^^^^^California^L^^^SL||||||1649229105^Anderson Jr^James^M^^^^^CMS^L^^^NPI~A25979^Anderson Jr^James^M^^^^^California^L^^^SL|^WPN^PH^^1^707^7256108~^WPN^FX^^^707^7259674|||||20141113|||F|||||||1508872714&Smith-Zagone&Megan&J&&&&&CMS
+OBX|1|ST|60573-3^Report template source^LN||CAP eCC||||||F|||201411131506
+OBX|2|CWE|60572-5^Report template ID^LN||189.1000043^INVASIVE CARCINOMA OF THE BREAST: Complete Excision (Less Than Total Mastectomy, Including Specimens Designated Biopsy, Lumpectomy, Quadrantectomy, and Partial Mastectomy With or Without Axillary Contents) and Mastectomy (Total, Modified Radical, Radical With or Without Axillary Contents)Radical, Radical With or Without Axillary Contents)^CAPECC||||||F|||201411131506
+OBX|3|ST|60574-1^Report template version ID^LN||2.005.001.1000043||||||F|||201411131506
+OBX|4|CWE|16183.1000043^Procedure (Note A)^CAPECC||16186.1000043^Excision with wire-guided localization^CAPECC||||||F|||201411131506
+OBX|5|CWE|16230.1000043^Lymph Node Sampling (Note B)^CAPECC||16232.1000043^Sentinel lymph node(s)^CAPECC||||||F|||201411131506
+OBX|6|CWE|16214.1000043^Specimen Laterality^CAPECC||16216.1000043^Left^CAPECC||||||F|||201411131506
+OBX|7|CWE|16272.1000043^Histologic Type of Invasive Carcinoma (Note D)^CAPECC||16280.1000043^Invasive ductal carcinoma (no special type or not otherwise specified)^CAPECC^82711006^Infiltrating duct carcinoma (morphologic abnormality)^SCT||||||F|||201411131506
+OBX|8|CWE|16346.1000043^Glandular (Acinar) / Tubular Differentiation^CAPECC||16349.1000043^Score 3: < 10% of tumor area forming glandular / tubular structures^CAPECC||||||F|||201411131506
+OBX|9|CWE|16353.1000043^Nuclear Pleomorphism^CAPECC||16355.1000043^Score 2: Cells larger than normal with open vesicular nuclei, visible nucleoli, and moderate variability in both size and shape^CAPECC||||||F|||201411131506
+OBX|10|CWE|16382.1000043^Mitotic Rate (see Table 1 in CAP Protocol)^CAPECC||16383.1000043^Score 1 (<=3 mitoses per mm2)^CAPECC||||||F|||201411131506
+OBX|11|CWE|16389.1000043^Overall Grade^CAPECC||16391.1000043^Grade 2: scores of 6 or 7^CAPECC||||||F|||201411131506
+OBX|12|CWE|16305.1000043^Ductal Carcinoma In Situ (DCIS) (Note H)^CAPECC||16307.1000043^DCIS is present^CAPECC||||||F|||201411131506
+OBX|13|CWE|16325.1000043^Architectural Patterns^CAPECC||16331.1000043^Solid^CAPECC||||||F|||201411131506
+OBX|14|CWE|16321.1000043^Nuclear Grade (see Table 2 in CAP Protocol)^CAPECC||16324.1000043^Grade III (high)^CAPECC||||||F|||201411131506
+OBX|15|CWE|16333.1000043^Necrosis^CAPECC||16336.1000043^Present, central (expansive "comedo" necrosis)^CAPECC||||||F|||201411131506
