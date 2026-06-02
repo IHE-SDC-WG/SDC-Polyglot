@@ -1,21 +1,22 @@
-# SDC-Polyglot
+# SDC Notebooks
 
-This repo contains a polyglot notebook for SDC. The resources here describe how to use SDC. 
+This repo contains Jupyter notebooks for SDC. The resources here describe how to use SDC. 
 
-## Style manual for this Polyglot 
+## Style manual for this Book
 
 Find out what markdown version this is? GitHub Markdown?
 
 ## Read-only Preview
 
-To access the notebook in read-only mode, visit the following link: https://ihe-sdc-wg.github.io/SDC-Polyglot/
+To access the notebook in read-only mode, visit the following link: https://ihe-sdc-wg.github.io/SDC-Notebooks/
 
 ## Note about this Repo
 
 
 ## Note about this Repo
 
-Disclaimer: This Polyglot notebook is currently in development and the content is subject to significant change. This disclaimer will be removed when a complete enough version is available on this Github. 
+Disclaimer: These Jupyter notebooks are currently in development and the content is subject to significant change. This disclaimer will be removed when a complete enough version is available on this Github. 
+
 
 ## Progress Tracker
 
